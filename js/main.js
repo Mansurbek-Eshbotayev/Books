@@ -15,7 +15,7 @@ function CreateList(arr,element){
   element.innerHtML = ""
   arr.forEach(item => {
     let newItem = document.createElement("li");
-    newItem.setAttribute("class","book__item mb-4")
+    newItem.setAttribute("class","book__item mb-5")
     let info = 
     `
     <div class="card" style="width: 18rem;">
