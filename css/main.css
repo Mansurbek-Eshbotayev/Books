@@ -1,0 +1,86 @@
+body{
+  background-color: #e3f2fd;
+}
+.header{
+  background-color:#91cccc;
+}
+
+.card{
+  height: 100%;
+  min-height:450px ;
+}
+
+.info__year{
+  position: relative;
+}
+
+.info__year::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../icons/year.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.info__page{
+  position: relative;
+}
+
+.info__page::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../icons/pages.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.info__language{
+  position: relative;
+}
+
+.info__language::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../icons/language.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.card__img{
+  height: 260px;
+}
+
+.logo__img{
+  width: 100px;
+  height: 40px;
+}
+
+.books__form{
+  width: 100%;
+  max-width: 600px;
+}
+
+.form__search,
+.form__lenguage,
+.form__sort{
+  width: 100%;
+  max-width: 100%;
+}
+
+@media only screen and (min-width:522px){
+  .form__search,
+.form__lenguage,
+.form__sort{
+  width: 100%;
+  max-width: 150px;
+}
+}

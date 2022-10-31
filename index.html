@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Books</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header class="header py-2">
+    <div class="container">
+      <nav class="navbar navbar-light" style="background-color: #91cccc;">
+        <div class="container-fluid d-flex justify-content-center justify-content-lg-between">
+          <a class="navbar-brand"><img class="logo__img img-fluid" src="./icons/logo.png" alt="Book-logo"></a>
+          <form class="d-flex books__form d-flex justify-content-center justify-content-md-end 
+          flex-wrap">
+            <input class="form-control me-2 form__search mt-2 mt-md-0" type="search" placeholder="Search" aria-label="Search">
+
+            <select class="form-select form__lenguage me-2 mt-2 mt-md-0" aria-label="Default select example">
+              <option value="All">All Language</option>
+            </select>
+
+            <select class="form-select form__sort me-2 mt-2 mt-md-0" aria-label="Default select example">
+              <option value="orign">Sort</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+              <option value="page-high">Page to High</option>
+              <option value="page-low">Page to Low</option>
+              <option value="year-high">Year to High</option>
+              <option value="year -low">Year to Low</option>
+            </select>
+            <button class="btn  btn-success mt-2 mt-md-0 d-block" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <section class="books py-5">
+
+      <div class="container">
+        <ul class="books__list list-unstyled d-flex justify-content-center justify-content-lg-between flex-wrap">
+
+        </ul>
+      </div>
+<a href=""></a>
+    </section>
+
+  </main>
+
+
+
+
+
+
+  
+
+  <!-- scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/books.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
