@@ -69,6 +69,17 @@ body{
   max-width: 600px;
 }
 
+.card{
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.card-body{
+  background: rgb(173,215,169);
+  background: linear-gradient(0deg, rgba(173,215,169,0.3452731434370623) 0%, rgba(29,160,170,0.46011908181241246) 100%, rgba(186,186,226,0.8802871490393032) 100%);
+}
+
 .form__search,
 .form__lenguage,
 .form__sort{
